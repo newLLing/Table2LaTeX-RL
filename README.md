@@ -5,6 +5,7 @@
 </div>
 
 ## ⚡ Updates
+* 21/09/2025: 🎉 We release our codebase.
 * 18/09/2025: 🔥 Table2LaTeX-RL has been accepted to NeurIPS 2025.
 
 ## 🚀 TL;DR
