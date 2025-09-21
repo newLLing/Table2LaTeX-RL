@@ -3,6 +3,7 @@
 # Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models
 
 </div>
+
 ## ⚡ Updates
 * 18/09/2025: 🔥 Table2LaTeX-RL has been accepted to NeurIPS 2025.
 
