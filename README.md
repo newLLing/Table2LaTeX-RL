@@ -50,7 +50,7 @@ sh examples/train/grpo/plugin/run_external_rm.sh
 
 Before running the evaluation, please download the evaluation datasets from [🤗 Table2LaTeX-RL Evaluation](https://huggingface.co/datasets/LLLHHH/Table2LaTeX-RL), and the model form [🤗 Table2LaTeX-RL Model](https://huggingface.co/LLLHHH/Table2Latex-RL)
 
-> 🚧 TODO: Updating model and datasets.
+
 
 ```bash
 pythoh qwenvl_test.py
