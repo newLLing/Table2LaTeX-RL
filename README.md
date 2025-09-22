@@ -51,7 +51,7 @@ Before running the evaluation, please download the evaluation datasets from [ðŸ¤
 pythoh qwenvl_test.py
 ```
 
-### (Step3) Evaluation Metrics
+### (Step3) Metrics
 Use cw_ssim.ipynb to measure the CW-SSIM and TEDS-Structure metrics.
 
 ## Citation
