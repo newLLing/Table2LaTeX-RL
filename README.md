@@ -40,4 +40,16 @@ We recommend using Docker for code training. The configuration steps are as foll
 4. Run the code. (sh examples/train/grpo/plugin/run_external_rm.sh)
 ```
 
+
 ### (Step2) Evaluation
+
+Before running the evaluation, please download the evaluation datasets from [🤗 Table2LaTeX-RL Evaluation](https://huggingface.co/datasets/LLLHHH/Table2LaTeX-RL), and the model form [🤗 Table2LaTeX-RL Model](https://huggingface.co/LLLHHH/Table2Latex-RL)
+
+> 🚧 TODO:Updating model and datasets.
+
+```bash
+pythoh qwenvl_test.py
+```
+
+### (Step3) Evaluation Metrics
+Use cw_ssim.ipynb to measure the CW-SSIM and TEDS-Structure metrics.
