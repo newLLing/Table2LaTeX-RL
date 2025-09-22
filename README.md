@@ -23,3 +23,21 @@ MLLM-based pipeline & insight: We integrate large-scale SFT with RL, achieving s
 
 Novel RL strategy — VSGRPO: Our Visual–Structural Guided RL jointly optimizes visual quality and structural fidelity via two complementary rewards, going beyond rule-based textual correctness checks and making it well-suited for layout-and-content sensitive tasks.
 
+## 🛠️ Usage
+### (Step1) Install && Training
+
+We recommend using Docker for code training. The configuration steps are as follows:
+```bash
+1. Pull the docker image. [Docker Image](docker pull modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.6.3-py311-torch2.7.1-vllm0.10.1.1-modelscope1.29.2-swift3.8.1)
+
+2. Run the docker image.(docker run --gpus all --ipc=host --network=host --name swift-grpo \
+-v /home/code:/code \
+-v /home/Datasets:/data \
+-it [modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.6.3-py311-torch2.7.1-vllm0.10.1.1-modelscope1.29.2-swift3.8.1] bash)
+
+3. Install the required dependencies. (pip install -U trl && pip install table_recognition_metric && pip install -e .)
+
+4. Run the code. (sh examples/train/grpo/plugin/run_external_rm.sh)
+```
+
+### (Step2) Evaluation
