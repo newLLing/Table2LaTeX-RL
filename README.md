@@ -53,3 +53,14 @@ pythoh qwenvl_test.py
 
 ### (Step3) Evaluation Metrics
 Use cw_ssim.ipynb to measure the CW-SSIM and TEDS-Structure metrics.
+
+## Citation
+If you find our works useful for your research, please consider citing:
+```bibtex
+
+```
+
+## Acknowledgement
+* This work is supported by [Research Center for Scientific Data Hub, Zhejiang Lab, Hangzhou, China](https://www.zhejianglab.org/lab/home) for computing resources.
+* The training codes are built on [ms-swift](https://github.com/modelscope/ms-swift).
+* The base models are from [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct).
