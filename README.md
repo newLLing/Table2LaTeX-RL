@@ -14,7 +14,7 @@
   <img src="./assets/Model.png" width=100%/>
 </p>
 
-**Table2LaTeX-RL** is a reinforced multimodal LLM framework that optimizes both structural and visual rewards to accurately generate LaTeX code from complex table images.
+Complex tables in scientific papers have always been difficult to automatically reproduce. **Table2LaTeX-RL** addresses this bottleneck by proposing the first visual + structural dual-reward reinforcement learning framework (VSGRPO), enabling large models to both generate correct LaTeX code and highly reproduce the final typesetting effect.
 
 🎯**Key contributions of our work**:
 
@@ -63,7 +63,15 @@ Use cw_ssim.ipynb to measure the CW-SSIM and TEDS-Structure metrics.
 ## Citation
 If you find our works useful for your research, please consider citing:
 ```bibtex
-
+@misc{ling2025table2latexrlhighfidelitylatexcode,
+      title={Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models}, 
+      author={Jun Ling and Yao Qi and Tao Huang and Shibo Zhou and Yanqin Huang and Jiang Yang and Ziqi Song and Ying Zhou and Yang Yang and Heng Tao Shen and Peng Wang},
+      year={2025},
+      eprint={2509.17589},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2509.17589}, 
+}
 ```
 
 ## Acknowledgement
