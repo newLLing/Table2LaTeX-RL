@@ -5,6 +5,7 @@
 </div>
 
 ## ⚡ Updates
+* 23/10/2025: 🐱 We release our full code.
 * 22/09/2025: 🤖 We release our model and dataset.
 * 21/09/2025: 🎉 We release our codebase.
 * 18/09/2025: 🔥 Table2LaTeX-RL has been accepted to NeurIPS 2025.
@@ -25,6 +26,11 @@ MLLM-based pipeline & insight: We integrate large-scale SFT with RL, achieving s
 Novel RL strategy — VSGRPO: Our Visual–Structural Guided RL jointly optimizes visual quality and structural fidelity via two complementary rewards, going beyond rule-based textual correctness checks and making it well-suited for layout-and-content sensitive tasks.
 
 ## 🛠️ Usage
+### (Step0) Prepare Dataset
+Using arxiv_papers_get.py and table.ipynb on Kaggle can bypass anti-scraping mechanisms.
+
+
+
 ### (Step1) Install && Training
 
 We recommend using Docker for code training. The configuration steps are as follows:
