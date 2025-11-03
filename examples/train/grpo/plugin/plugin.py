@@ -487,7 +487,7 @@ def safe_render_tex(content: str, timeout: int = 10) -> str:
         logger.error(f"渲染异常: {str(e)}")
         return ""
 
-def safe_convert_pdf_to_png(pdf_path: str, dpi: int = 150) -> str:
+def safe_convert_pdf_to_png(pdf_path: str, dpi: int =300) -> str:
     """安全转换PDF到PNG（降低DPI以提升速度）"""
     if not os.path.exists(pdf_path):
         return ""
